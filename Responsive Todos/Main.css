@@ -90,12 +90,12 @@ body{
 .actions .edit:hover{
 
     transform: translate(-2px, -2px);
-    box-shadow: 0 0.5em 0.5em -0.4em #5656EE;
+    box-shadow: 0 0.5em 0.5em -0.3em #5656EE;
 }
 
 .actions .delete:hover{
 
-    box-shadow: 0 0.5em 0.5em -0.4em #F34D4D;
+    box-shadow: 0 0.5em 0.5em -0.3em #F34D4D;
     transform: translate(2px, -2px);
 }
 

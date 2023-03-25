@@ -72,7 +72,7 @@ addTodo.addEventListener(('submit'), (e) =>{
 
                 document.querySelector('.edit').style.color = "#50C878";
                 document.querySelector('.edit').style.border = "2px solid #50C878";
-                document.querySelector('.edit').style.boxShadow = "0 0.5rem 0.5rem -0.4rem #50C878";
+                document.querySelector('.edit').style.boxShadow = "0 0.5rem 0.5rem -0.3rem #50C878";
             });
 
             editBtn.addEventListener(('mouseleave'), () =>{
@@ -93,9 +93,9 @@ addTodo.addEventListener(('submit'), (e) =>{
            
             editBtn.addEventListener(('mouseenter'), () =>{
 
-                document.querySelector('.edit').style.color = "rgb(86, 86, 238)";
+                document.querySelector('.edit').style.color = "#5656EE";
                 document.querySelector('.edit').style.border = "2px solid #5656EE";    
-                document.querySelector('.edit').style.boxShadow = "0 0.5rem 0.5rem -0.4rem #5656EE";
+                document.querySelector('.edit').style.boxShadow = "0 0.5rem 0.5rem -0.3rem #5656EE";
             });
 
             editBtn.addEventListener(('mouseleave'), () =>{
